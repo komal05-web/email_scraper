@@ -82,6 +82,8 @@ Data exported to emails.csv
 |---------------------|
 | contact@example.com |
 
+---
+
 ## Project Structure
 ```
 email-scraper/
@@ -89,11 +91,18 @@ email-scraper/
 ├── test.html           # Sample local HTML file
 ├── emails.csv          # Generated CSV file
 └── requirements.txt    # Python dependencies
+```
+
+---
+
 ## Design Choices
 - **Focus on Local Files**: Emphasized processing local files for simplicity and reproducibility.
 - **Regex for Extraction**: Used a regular expression to identify email patterns in raw HTML.
 - **Validation & Filtering**: Added optional filters to enhance usability.
 - **CSV Output**: Chose CSV as it integrates easily with most data workflows.
+
+---
+
 ## Limitations
 - The tool currently works with local HTML files only; it does not scrape live websites.
 - Validation is basic and may not identify all invalid email formats.
