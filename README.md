@@ -115,5 +115,3 @@ Contributions are welcome! Feel free to submit issues, fork the repository, and 
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
